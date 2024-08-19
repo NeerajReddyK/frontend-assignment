@@ -31,16 +31,17 @@ const AddToCartButton = ({product}) => {
     <div className="flex justify-end">
       <motion.button
         whileTap={{
-          scale: [1, 1.1, 1.1, 1],
-          rotate: [0, 360, 360, 0],
+          scale: [1.1, 1.2, 1.3, 1.2, 1.1],
         }}
         whileHover={{ scale: 1.1 }}
         transition={{duration: 0.6 , ease: "easeInOut"}}
         onClick={handleAddToCart}
         className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-700 "
       >
-      Add To Cart
-    </motion.button>
+        Add To Cart
+      </motion.button>
+
+      
     </div>
   )
 }
