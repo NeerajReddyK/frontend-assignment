@@ -27,8 +27,6 @@ const HomePage = async () => {
           </div>
         </div>
       </div>
-      {/* Thanking the team for this opportunity */}
-      <Footer />
     </div>
   );
 };
